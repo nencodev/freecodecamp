@@ -1,41 +1,84 @@
 /* Historia de Usuario #1 */
 #main {
-  background-color: lightsteelblue;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(218, 179, 130);
+  margin-top: 3rem;
+  padding: 1rem 0;
 }
 /* Historia de Usuario #2 */
 #title {
-
+text-align: center;
 }
 /* Historia de Usuario #3 */
 #img-div {
-
+background-color: #fff;
+padding: 2rem 0;
+margin: 0;
 }
 /* Historia de Usuario #4 #image*/
-/* Historia de Usuario #9: El elemento img debería estar centrado dentro de su elemento padre. */
+/* Historia de Usuario #8 */
+/* Historia de Usuario #9: El elemento img debería estar centrado dentro de su elemento padre */
 #image {
-
+  width: 930px;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
 }
 /* Historia de Usuario #5 */
 #img-caption {
-
+  width: 930px;
+  color: #fff;
+text-align: center;
+font-size: medium;
+background-color: black;
+margin: auto;
+padding: 0.5rem 0;
 }
 /* Historia de Usuario #6 */
 #tribute-info {
-
+margin: 1rem 6rem;
+padding: 3rem 0;
+line-height: 2em;
+font-size: larger;
+text-align: justify;
 }
 /* Historia de Usuario #7 */
 #tribute-link {
-
+color:rgb(182, 34, 34);
+font-size: larger;
 }
-/* Historia de Usuario #8 */
-@media () {
-
+#parag-1 {
+  text-align: center;
 }
-/* Historia de Usuario #9 */
-# {
-
+#secc {
+  background-color: rgb(245, 245, 245);
+  margin: 0 auto;
+  width: 70%;
 }
-/* Historia de Usuario #10 */
-# {
-
+blockquote {
+font-style: italic;
+text-align: left;
 }
+
+@media (max-width: 945px) {
+  #img-caption {
+  width: 100%;
+  font-size: smaller;
+  }
+}
+@media (max-width: 460px) {
+  #tribute-info {
+    margin: 1rem 1rem;
+    padding: 2rem 0;
+    font-size: medium;
+    text-align: left;
+    }
+  }
+  @media (max-width: 945px) {
+    #secc {
+      background-color: rgb(245, 245, 245);
+      margin: 0 auto;
+      width: 90%;
+    }
+  }
